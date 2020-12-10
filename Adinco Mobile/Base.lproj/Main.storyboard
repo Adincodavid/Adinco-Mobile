@@ -23,12 +23,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label test 0.0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcB-2a-hQN">
+                                <rect key="frame" x="10" y="85" width="394" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mcB-2a-hQN" secondAttribute="trailing" constant="10" id="24h-Ms-ETM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Owj-EW-4Af" secondAttribute="trailing" constant="10" id="9fy-eL-wj3"/>
+                            <constraint firstItem="mcB-2a-hQN" firstAttribute="top" secondItem="Owj-EW-4Af" secondAttribute="bottom" constant="10" id="C6h-kj-z7q"/>
                             <constraint firstItem="Owj-EW-4Af" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="gev-RF-bYm"/>
+                            <constraint firstItem="mcB-2a-hQN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="jaQ-O2-b3j"/>
                             <constraint firstItem="Owj-EW-4Af" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ynA-a3-cS3"/>
                         </constraints>
                     </view>
